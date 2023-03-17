@@ -1,0 +1,308 @@
+:root {
+    --darkbrown: #453333;
+    --palewhite: #FCF5E5; 
+    --strawyellow: #F8C468; 
+    --hazelnut: #F1D39D; 
+    --oceanblue: #2EA1DA;
+    --skyblue: #6DBDE5; 
+    --lightpink: #F8CBC5; 
+    --coralreef: #EB8B8B; 
+    --seaweedgreen: #C1EB8B; 
+    --turtlegreen: #6BCC69; 
+    --seastar: #E6C6FF; 
+
+    /* background-color:var(--strawyellow);
+    box-shadow: 5px 5px #000; */
+
+    /* width: 150px;
+    padding: 15px;
+    margin-top: 50px;
+    cursor: pointer;
+    border: 3px solid black;
+    font-family: 'Pixeloid Sans', Nunito Sans, sans-serif;
+    font-size: 24px; */
+}
+
+
+@font-face {
+    font-family: "pixeloidSans";
+    src: url("../font/PixeloidSans-JR6qo.ttf");
+
+    font-family: "pixeloidSans_bold";
+    src: url("../font/PixeloidSansBold-GOjpP.ttf");
+}
+body, html {
+    background: var(--palewhite);
+    margin: 0;
+    padding: 0;
+    font-family: 'pixeloidSans';
+}
+.titleImage {
+    display: flex;
+    justify-content: center;
+}
+
+.icons-containerTop {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 6em;
+    gap: 5px;
+}
+.icons-containerBottom {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;   
+    gap: 40px;
+}
+
+.buttonscontainerTop {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 4em;
+    gap: 5px;
+   
+}
+.buttonscontainerBottom {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10em;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+.homeImage {
+    margin-left: 2.1em;
+}
+.beachImage {
+   margin-left: 2.5em;
+}
+.notepadImage {
+    margin-left: 2em;
+}
+.settingsImage {
+    margin-left: 2.5em;
+    gap: 0px;
+}
+.storeImage {
+    margin-left: 2.7em;
+}
+
+.IconsTitle {
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 3em;
+    font-family: 'PixeloidSans_bold';
+}
+.ButtonsTitle {
+    text-align: center;
+    margin-bottom: 3em;
+    margin-top: 5em;
+    font-family: 'PixeloidSans_bold';
+}
+
+
+.mainUserButtons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.playButton, .aboutButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.homeTitle, .beachTitle, .notepadTitle, .profileTitle, .storeTitle, .hamburgerTitle, .saveTitle , .mainPageTitle {
+    font-family:'PixeloidSans_bold'; 
+    text-align: center;
+}
+.hamburgerTitle {
+    margin-right: 3em;
+}
+.saveTitle {
+    text-align: center;
+    margin-right: 70px;
+}
+.mainPageTitle {
+    display: flex;
+    justify-content: center;
+}
+.mainItems {
+    display: flex;
+}
+.playButtonText {
+    text-align: center;
+}
+
+.homeDescrption, .beachIconText, .notepadIconText, .profileIconText, .storeIconText {
+    font-family: 'PixeloidSans';
+}
+
+.buyTitle, .navButtonsTitle {
+    text-align: center;
+    font-family: 'PixeloidSans_bold';
+    margin-left: 1em;
+}
+
+
+.saveButtonImage {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+   
+}
+
+.hamburgerImage {
+    margin-left: 78px;
+}
+
+.navArrows {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 4em;
+}
+.arrowImages {
+    display: flex;
+    justify-content: center;
+}
+.navArrowsText {
+   text-align: center;
+   margin-left: 8em;
+    font-family:'PixeloidSans'; 
+    display: flex;
+    justify-content: center;
+}
+
+.playButton, .aboutButton {
+    width: 150px;
+    height: 70px;
+}
+
+.buttonText {
+    margin-left: 2.5em;
+}
+
+.buttonNav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    text-decoration: none;
+}
+.navButton {
+    background-color: var(--coralreef);
+    border: 3px solid var(--black);
+    font-size: 16px;
+    width: 120%;
+    font-family: 'pixeloidSans_bold';
+    color: black;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 19px;
+    
+}
+.navButton:hover {
+    cursor: pointer;
+    background-color:var(--strawyellow);
+    box-shadow: 5px 5px black;
+}
+
+.saveButton {
+    margin-top: 0px
+    
+
+}
+.savesection {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+      
+}
+.store {
+    display: flex;
+    justify-content: center;
+    margin-left: 18px;
+}
+
+.arrowleft {
+    position: relative;
+    right: 15em;
+}
+.arrowright {
+    position: relative;
+    left: 5em;
+}
+
+.sectionTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+
+}
+
+.buyButtonImage {
+    margin-left: 1.6em;
+}
+.navArrows {
+    display: flex;
+    justify-content: center;
+    gap: 46px;
+    margin-left: 148px;
+}
+
+.menuNavigation {
+    display: flex;
+    justify-content: center;
+}
+
+.navButtonsTitle {
+    display: flex;
+    justify-content: center;
+    margin-right: 6.6em;
+}
+.continueTitle {
+    color: #2EA1DA;
+    font-family: 'PixeloidSans_bold';
+}
+.quitGameTitle {
+    color: #6BCC69;
+    font-family: 'PixeloidSans_bold';
+}
+ .settingsTitle {
+   font-family: 'PixeloidSans_bold';
+   color: #EB8B8B;
+ }
+ .playTitle {
+    color: #453333;
+    font-family: 'PixeloidSans_bold';
+ }
+ .aboutTitle {
+    color: #453333;
+    font-family: 'PixeloidSans_bold';
+ }
+ .pauseMenuImage {
+    display: flex;
+    justify-content: center;
+    margin-left: 1.5em;
+ }
+ .menuNavText {
+    line-height: 1.40;
+ }
+
+
+
+
+
+
+
+
+
+
+
